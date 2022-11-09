@@ -1,0 +1,290 @@
+.titulo{
+    font-family: 'Segoe script';
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    color:blue;
+    margin-top: 70px ;
+    margin-bottom: 25px;
+}
+.fase{
+    font-family: 'Segoe script';
+    font-size: 30px;
+    margin: auto;
+    text-align: left;
+    color:blue;
+    margin-top: 25px ;
+    margin: 0 40px;
+}
+.subfase{
+    font-family: 'Segoe script';
+    font-size: 25px;
+    margin: auto;
+    text-align: left;
+    color:#ffe606;
+    margin-top: 25px ;
+    margin: 0 40px;
+}
+.actividad{
+    font-family: 'Dancing script';
+    font-size: 22px;
+    margin: auto;
+    text-align: left;
+    color:pink;
+    margin-top: 25px ;
+    margin: 0 40px;
+}
+.titulo1{
+    font-family: 'Segoe script';
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    color: crimson;
+    margin-top: 50px ;
+    margin-bottom: 25px;
+}
+.texto{
+    font-family: 'Dancing script';
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    color:white;
+    margin-top: 50px ;
+    margin-bottom: 25px;
+    margin: 0 40px;
+}
+.ubi img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    align-items: center;
+}
+.org img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.aparea img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.area img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.entrevista {
+    font-family: 'Dancing script';
+    font-size: 20px;
+    margin: auto;
+    text-align: left;
+    color:white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin: 0 40px;  
+}
+.entrevista ol{
+    font-family: 'Dancing script';
+    font-size: 20px;
+    margin: auto;
+    text-align: left;
+    color:white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin: 0 40px;    
+}
+.diag1 img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.diag2 img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.diag3 img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.diag4 img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.diag5 img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.diag6 img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.diag7 img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.diag8 img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.diag9 img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.diag10 img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.interfaz1 img, .Retroalimentacion01 img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.interfaz2 img, .Retroalimentacion02 img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.interfaz3 img, .Retroalimentacion03 img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.interfaz4 img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.interfaz5 img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.interfaz6 img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.interfaz7 img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.interfaz8 img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.interfaz9 img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+@media screen and (max-width:940px) {
+    .title{
+        color:blanchedalmond;
+        font-size: 40px;
+    }
+    .fase{
+        color: azure;
+    }
+    .titulo1{
+        color:aqua;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .ubi img
+    ,.org img
+    ,.aparea img
+    ,.area img
+    ,.diag1 img
+    ,.diag2 img
+    ,.diag3 img
+    ,.diag4 img
+    ,.diag5 img
+    ,.diag6 img
+    ,.diag7 img
+    ,.diag8 img
+    ,.diag9 img
+    ,.diag10 img
+    ,.interfaz1 img, .Retroalimentacion01 img
+    ,.interfaz2 img, .Retroalimentacion02 img
+    ,.interfaz3 img, .Retroalimentacion03 img
+    ,.interfaz4 img
+    ,.interfaz5 img
+    ,.interfaz6 img
+    ,.interfaz7 img
+    ,.interfaz8 img
+    ,.interfaz9 img{
+        width: 100%;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        max-height: 800px;
+        max-width: 750px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .ubi img
+    ,.org img
+    ,.aparea img
+    ,.area img
+    ,.diag1 img
+    ,.diag2 img
+    ,.diag3 img
+    ,.diag4 img
+    ,.diag5 img
+    ,.diag6 img
+    ,.diag7 img
+    ,.diag8 img
+    ,.diag9 img
+    ,.diag10 img
+    ,.interfaz1 img, .Retroalimentacion01 img
+    ,.interfaz2 img, .Retroalimentacion02 img
+    ,.interfaz3 img, .Retroalimentacion03 img
+    ,.interfaz4 img
+    ,.interfaz5 img
+    ,.interfaz6 img
+    ,.interfaz7 img
+    ,.interfaz8 img
+    ,.interfaz9 img{
+        width: 100%;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        max-height: 400px;
+        max-width: 900px;
+    }
+}

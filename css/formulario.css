@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body{
+    font-family: 'Segoe script';
+    background-color: #8e8df6;
+    margin: auto;
+}
+
+.contenedorTotal {
+  width: 100%;
+  max-width: 1290px;
+  margin:0 auto;
+  overflow: hidden;
+}
+
+.contact_form{  
+  width: 80%; 
+  height: 80% auto;
+  margin: 100px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fff; 
+  padding-left: 30px; 
+}
+h2{
+	font-family: 'Segoe script';
+	font-size: 35px;
+	color: #0966f1;
+}
+h3{
+	font-family: 'Segoe script';
+	font-size: 25px;
+	color: #09f1bf;
+	margin-bottom: 25px;
+}
+form{
+	font-family: 'Segoe script';
+	font-size: 25px;
+	color: #9c09f1;
+}
+.aviso{
+	font-family: 'Segoe script';
+	font-size: 18px;
+	color: #f10909;
+	}
+
+  .btn{
+    font-size: 15px;
+    align-content: center;
+  }
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 90%; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+.texto_mensaje{
+  width: 90%;
+  max-width: 90%;
+  min-width: 90%;
+  min-height: 150px;
+}
+
+@media screen and (max-width: 940px) {
+  body{
+      background-color: #de784f;
+  }
+  .col1{
+    width: auto;
+    padding: 0px 3px;
+    margin-left: 0 auto;
+    font-size: 11px;
+}
+.col2{
+    width: auto;
+    padding: 0px 3px;
+    margin-left: 0 auto;
+    font-size: 11px;
+}
+.col3{
+    width: auto;
+    margin-left: 0 auto;
+    padding: 0px 10px;
+    padding-right: 50px;
+    font-size: 11px;
+}
+.final{
+    width: 79%;
+    font-size: 12px;
+}
+  /* .contenedor2{
+      width: 100%;
+  } */
+  .title, .sub, .colocar_nombre, .colocar_email, .aviso,
+  .colocar_telefono, .colocar_asunto, .colocar_mensaje{
+    font-size: 18px;
+    padding: 10px;
+  }
+ 
+  
+}
+@media screen and (max-width: 940px){
+  .RT{
+      font-size: 25px;
+  }
+  .rush{
+      font-size: 25px;
+  }
+  .contenedorTotal{
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px){
+  body{
+      background-color: #f77c7c;
+  }
+  .RT{
+    font-size: 20px;
+}
+.rush{
+    font-size: 20px;
+}
+.final{
+  display: block;
+  width: 100%;
+  font-size: 9px;
+  margin: 60px auto;
+  transform: translateY(-110px);
+}
+}

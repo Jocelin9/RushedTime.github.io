@@ -1,0 +1,39 @@
+.reporte embed{
+    align-items: center;
+    margin-left: 100px auto;
+    margin-right: 100px auto;
+    max-width: 500px;
+        min-width: 400px;
+        max-height: 720px;
+        min-height: 720px;
+}
+
+.reporte embed{
+    width: 90%;
+}
+
+@media screen and (max-width:940px) {
+    .reporte embed{
+        max-width: 500px;
+        min-width: 400px;
+        max-height: 720px;
+        min-height: 720px;
+    }
+    
+    h2 p{
+        color:blanchedalmond;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .reporte embed{
+        box-sizing: border-box;
+        scroll-margin-right: none;
+        width: 90%;
+        max-width: 500px;
+        min-width: 400px;
+        max-height: 720px;
+        min-height: 720px;
+    }
+}

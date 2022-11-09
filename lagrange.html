@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<script src="js/app.js"></script>
+		<script src='js/decimal.min.js'></script>
+		<script src="js/mathcalc.js"></script>
+		<script src="js/chart.js"></script>
+		<link rel="stylesheet" href="css/lagrange.css">
+		
+		<title>Método de Lagrange</title>
+	</head>
+	<body onpaste="return false">
+		
+			<header>
+				<div class="contenedorhead">
+					<div>
+					<img src="img/imgT/Rushed Time1.png" height ="105px" width="200px">
+					<h1 class="RT" >Papelería </h1><h1 class="rush"><font color ="#ff1616" face="Segoe script" >
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						Rushed Time</font></h1>
+					</div>
+		
+					<div class="menu">
+						<div>
+						<i class="fa fa-sharp fa-solid fa-bars" id="btn_menu"></i>
+					</div>
+						<div id="back_menu"></div> 
+					<nav id="nav">
+						<img src="img/imgT/Rushed Time1.png" alt="" srcset="">
+						<ul >
+							<li><a href="index.html" id="selected">Inicio</a></li>
+							<li><a href="productos.html">Productos</a></li>
+							<li><a href="#">Información</a>
+							<ul class="menu-vertical">
+								<li><a href="analisis.html">Análisis y diseño de sistemas</a></li>
+								<li><a href="metodos.html">Métodos numericos</a></li>
+								<li><a href="arquitectura.html">Arquitectura de computadoras</a></li>
+								<li><a href="appmoviles.html">Diseño de aplicaciones móviles</a></li>
+							</ul></li>
+							<li><a href="contacto.html">Contacto</a></li>
+						</ul>
+					</nav>
+					
+				</div>
+				</div>
+		</header>
+		<br><br><br><br><br><br><br><br><br>
+		<div class="contact_form">
+		<div id="formulario">
+	        <form>
+	        	
+	            <label class="text">Coordenadas</label>
+	                <input type="TEXT" id="txtCoordenadas" onkeypress="return txtCoordenadas_KeyPress(event);" onkeyup="txtCoordenadas_TextChanged(this.value)" required>
+					<div class="tbl">
+						<table id="tblCoordenadas"  border="">
+							<tr>
+								<th>#</th>
+								<th>Coordenada</th>
+							</tr>
+						</table>
+					</div>
+					<label class="text">Punto a buscar</label>
+	                <input type="TEXT" id="txtPuntoABuscar" onkeypress="return txtPuntoABuscar_KeyPress(event);" onkeyup="txtPuntoABuscar_TextChanged(this.value)" required> 
+	            <input type="button" onclick="btnInterpolar_Click()" class="btn" id="btnInterpolar" value="Interpolar"><br><br>
+	            <input type="button" onclick="btnAgregar_Click()" class="btn" id="btnAgregar" value="Agregar"><br><br>
+	            <input type="button" onclick="btnModificar_Click()" class="btn" id="btnModificar" value="Modificar"><br><br>
+	            <input type="button" onclick="btnBorrar_Click()" class="btn" id="btnBorrar" value="Borrar"><br><br>
+				<input type="button" onclick="btnLimpiar_Click()" class="btn" id="btnLimpiar" value="Limpiar"><br><br>
+            	<p id="parrafoResultado" class="text">Polinomio interpolador:</p><br> 
+	            <label class="text">Resultado </label>
+	            	<input type="TEXT" id="txtResultado" readonly> <br><br>
+	        </form>
+	    </div>
+		
+	</div><br><br><br><br>
+	
+			<canvas id="grafica"></canvas>
+		<br><br><br><br><br>
+	
+			
+		<script src="js/script.js"></script>    
+	</body>
+	<script type="text/javascript">
+		document.getElementById("btnInterpolar").disabled  = true;
+		document.getElementById("btnModificar").disabled  = true;
+		document.getElementById("btnBorrar").disabled  = true;
+		document.getElementById("btnAgregar").disabled  = true;
+		document.getElementById("txtCoordenadas").focus();
+	</script>
+</html>

@@ -1,0 +1,80 @@
+.titulo{
+    font-family: 'Segoe script';
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    color:blue;
+    margin-top: 70px ;
+}
+.titulo1{
+    font-family: 'Segoe script';
+    font-size: 28px;
+    margin: auto;
+    text-align: center;
+    color:#ffe606;
+    margin-top: 25px ;
+    margin: 0;
+}
+.titulo1 a{
+    width: 100%;
+    font-family: 'Segoe script';
+    font-size: 28px;
+    margin: auto;
+    text-align: center;
+    color:#ffe606;
+    margin-top: 25px ;
+  
+}
+.diaglagrange img{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+}
+pre{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: left;
+    background-color: #8e8df6;
+    margin-left: 50px auto;
+    margin-right: 50px auto; 
+    max-width: 1200px;
+}
+
+#grafica{
+    width: 80%;
+}
+
+@media screen and (max-width:940px) {
+    pre{
+        font-size: 13px;
+        background-color: #de784f;
+    }
+
+    .title{
+        color:blanchedalmond;
+        font-size: 40px;
+    }
+    .titulo{
+        color: azure;
+    }
+    #grafica{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    body{
+        background-color: #f77c7c;
+    }
+    pre{
+        font-size: 9px;
+        background-color: #f77c7c
+    }
+}
